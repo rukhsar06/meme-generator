@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+
+body {
+  background-color: rgb(121, 60, 115);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.josh2 {
+   height :190px;
+  width :auto ;
+  padding : 10px;
+  border-radius : 30%;
+   float : left;
+   margin-top: 50px;
+   position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+height :100px;
+width : auto;
+display : flex ;
+box-shadow:10px 10px 10px rgb(93, 10, 80) ;
+background-color: rgb(54, 2, 53);
+
+}
+.logo {
+  border-radius: 60px; 
+  padding : 10px;
+}
+.meme {
+  font-size: 24px;
+  white-space: nowrap; /* PREVENTS text from breaking into multiple lines */
+ color : white;
+ padding : 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bdy{
+  color :white ;
+  margin-left: auto ;
+  padding: 15px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.meme-inputs {
+  width :auto;
+  height : 40px ;
+  display : flex;
+  margin-top :10%;
+  margin-left : 33%;
+  gap: 50px;
+
+}
+.input1{
+  font : 20px Arial, sans-serif;
+  border-radius: 10px;
+}
+.input2 {
+  font : 20px Arial, sans-serif;
+  border-radius: 10px;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.meme-button {
+  margin-left: 44%;
+  display: block;
+  margin-top : 10%;
+  width : 15%;
+  height : 50px;
+  background-color: purple;
+  color : white;
 }
+
+.meme-img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  float: right;
+  position: relative;   /* 👈 this gives meaning to `top` */
+  top: -200px;            /* use px not %, it's more reliable for small shifts */
+}
+
+
