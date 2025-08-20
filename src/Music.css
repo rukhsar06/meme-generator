@@ -1,0 +1,6 @@
+.music-player {
+  position: absolute;   /* or fixed if you want it stuck */
+  top: 300px;
+  left: 10px;
+  /* you can also do right/bottom or even use transform */
+}
